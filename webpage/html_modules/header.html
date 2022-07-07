@@ -1,0 +1,91 @@
+<h1>Chemistry Trivia</h1>
+
+
+
+<!--Navigation Bar-->
+
+
+<div class="navbar">
+
+    <a href="/">Home</a>
+    <a href="/quiz">Quiz</a>
+
+    <div class="dropdown">
+        <button class="dropdownButton">Contest</button>
+        <div class="dropdownContent">
+            <a href="/daily-challenge">Daily Challenge</a>
+            <a href="/tournament">Tournament</a>
+        </div>
+    </div>
+
+    <a href="/about">About</a>
+    <a href="/account">Account</a>
+    
+</div>
+
+
+
+<style>
+
+    .navbar {
+        overflow: hidden;
+        background-color: #045050;
+    }
+    
+    .navbar a {
+        float: left;
+        font-size: 2vw;
+        color: white;
+        text-align: center;
+        padding: 0.5vw 0.8vw;
+    }
+    
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+    
+    .dropdownButton {
+        float: left;
+        font-size: 2vw;
+        color: white;
+        background-color: #045050;
+        text-align: center;
+        padding: 0.5vw 0.8vw;
+        border: none;
+        margin: 0;
+        outline: none;
+    }
+    
+    .dropdownContent {
+        display: none;
+        position: absolute;
+        background-color: #07adad;
+        min-width: 1.2vw;
+        z-index: 1;
+    }
+    
+    .dropdownContent a {
+        float: none;
+        font-size: 2vw;
+        color: #066e6e;
+        text-align: left;
+        padding: 0.5vw 0.8vw;
+        display: block;
+    }
+    
+    
+    
+    .navbar a:hover, .dropdown:hover .dropdownButton {
+        background-color: #0086c5;
+    }
+    
+    .dropdown:hover .dropdownContent {
+        display: block;
+    }
+    
+    .dropdownContent a:hover {
+        background-color: #0086c5;
+    }
+
+</style>

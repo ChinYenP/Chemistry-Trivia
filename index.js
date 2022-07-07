@@ -7,6 +7,7 @@ const path = require('path');
 
 //Include folder needed
 app.use('/webpage', express.static(path.join(__dirname, 'webpage')));
+app.use('/jquery', express.static(path.join(__dirname, 'jquery-3.6.0.min.js')));
 
 
 
